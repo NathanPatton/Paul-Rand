@@ -449,7 +449,8 @@ body {
   font-family: "Fira Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  margin: 0 auto; }
 
 ::selection {
   background: #e77070; }
@@ -477,6 +478,16 @@ h1 {
   font-family: "Open Sans";
   font-size: 7em;
   text-transform: uppercase; }
+
+h2 {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: #000;
+  font-size: 5em; }
+
+p {
+  font-family: "Open Sans";
+  font-size: 1.25em; }
 
 .button,
 button,
@@ -535,3 +546,12 @@ header {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 0 0.25em 0 0.25em; }
+
+.container {
+  float: left;
+  width: 100%; }
+  .container .the-start {
+    width: 75%;
+    margin: 0 auto; }
+    .container .the-start p.start {
+      margin-top: -3em; }
