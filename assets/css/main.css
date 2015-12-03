@@ -567,7 +567,8 @@ header {
 
 .the-start {
   width: 75%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: justify; }
   .the-start p.start {
     margin: -3em 0 5em 0; }
 
@@ -594,7 +595,8 @@ header {
   width: 75%;
   margin: 0 auto;
   padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  text-align: justify; }
   .career p.spacer {
     display: none;
     background: green; }
@@ -620,4 +622,5 @@ header {
 
 .corporate {
   width: 75%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: justify; }
