@@ -663,3 +663,22 @@ header {
 
 .later {
   color: white; }
+
+.conclusion-hero {
+  background-image: url(../img/conclusion.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+  float: left;
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  align-items: center; }
+  .conclusion-hero .sub-head4 {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0 0.25em 0 0.25em; }
