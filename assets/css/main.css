@@ -708,6 +708,8 @@ header {
   .references .container5 {
     width: 75%;
     margin: 0 auto;
-    text-align: justify; }
+    text-align: center; }
   .references .head {
     color: white; }
+  .references .small {
+    font-size: 0.7em; }
