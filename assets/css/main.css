@@ -703,10 +703,10 @@ header {
 .references {
   width: 100%;
   background: black;
-  height: 60vh;
   float: left; }
   .references .container5 {
     width: 75%;
+    height: 600px;
     margin: 0 auto;
     text-align: center; }
   .references .head {
